@@ -1,0 +1,114 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    margin: 0px;
+    background-color: black;
+}
+
+/* 컴퓨터 - 모바일 화면 자동 축소하려면 퍼센트 사용하기 */
+.wrapper {
+    width: 350px;
+    max-width: 70%;
+    max-height: 350px;
+    padding: 40px;
+    background-color: hsl(216, 12%, 8%);
+    color: hsl(217, 12%, 63%);
+    border-radius: 25px;
+}
+
+.star {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(213, 19%, 18%);
+    color:hsl(217, 12%, 63%);
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+}
+
+.hidden {
+    display: none;
+}
+
+.title1 {
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+    font-size: 25px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.content1 {
+    height: 75px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 15px;
+}
+
+.score {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.number {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(213, 19%, 18%);
+    color:hsl(217, 12%, 63%);
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.number:hover {
+    color: hsl(0, 0%, 100%);
+    background-color:hsl(25, 97%, 53%);
+}
+
+#submit {
+    height: 40px;
+    margin-top: 30px;
+    background-color: hsl(25, 97%, 53%);
+    color:hsl(0, 0%, 100%);
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+#submit:hover {
+    background-color: hsl(0, 0%, 100%);
+    color:hsl(25, 97%, 53%);
+}
+
+#thankyou {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.notice {
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    background-color: hsl(213, 19%, 18%);
+    color: hsl(25, 97%, 53%);
+    border-radius: 20px;
+    margin-top: 30px;
+}
